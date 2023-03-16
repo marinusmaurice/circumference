@@ -1,7 +1,7 @@
 ﻿/*
  * Created by Maurice Marinus 
  * Date: 2022/03/27
- * Description: Very inefficient way to calculate pi
+ * Description: Very inefficient way to calculate pi.. but at least it gets there
  * 
  * 
  */
