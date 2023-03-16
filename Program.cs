@@ -22,12 +22,12 @@ namespace Demo0
 			Console.WriteLine("Radius: "+radius.ToString());
 			List<Tuple<double, double>> pts = new List<Tuple<double, double>>();
 			List<double> totals = new List<double>();
-			for (double y = radius; y >= 0; y-=0.001) {
+			for (double y = radius; y >= 0; y-=0.000001) {
 				double x = Math.Sqrt(radius*radius - y * y); 
 				pts.Add(new Tuple<double, double>(x,y)); 
 			}
 			 
-			for (int i = 1; i <=pts.Count-1 ; i++) {
+			for (int i = 1; i <pts.Count ; i++) {
 				
 				double x1 = (double)pts[i].Item1;
 				double x2 = (double)pts[i-1].Item1;
